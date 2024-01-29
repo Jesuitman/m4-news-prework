@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ArticleView from '../ArticleView/ArticleView';
-import './ArticleCard.css'; // Import the associated CSS file
+import './ArticleCard.css'; 
 
 const ArticleCard = ({ article }) => {
   const [showArticleView, setShowArticleView] = useState(false);

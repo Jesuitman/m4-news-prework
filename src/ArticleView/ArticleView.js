@@ -1,5 +1,5 @@
 import React from 'react';
-import './ArticleView.css'; // Import the associated CSS file
+import './ArticleView.css'; 
 
 const ArticleView = ({ article, onClose }) => {
   const { title, description, url, urlToImage, publishedAt, content, source } = article;
